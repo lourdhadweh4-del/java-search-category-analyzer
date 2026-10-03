@@ -1,19 +1,30 @@
 # Java Search Category Analyzer
 This repository contains a Java program that analyzes search input and categorizes results based on predefined conditions.
 
-## Concepts Covered
-- Control flow (if / else)
-- String comparison
-- Conditional logic
-- Data categorization
-- Problem solving
-- Basic algorithm design
+[Back to portfolio](https://github.com/lourdhadweh4-del) · [Coursework index](https://github.com/lourdhadweh4-del/lourdhadweh4-del/blob/main/COURSEWORK.md)
 
-## Tools Used
-- Java
-- IntelliJ IDEA
+## Repository guide
 
-## Purpose
-To practice implementing logic that analyzes input data and assigns categories based on conditions.
-Search and categorization logic are common tasks in software applications, where programs need to process input and determine appropriate outputs based on defined rules.
-This project helped strengthen understanding of decision-making logic and algorithmic thinking in Java.
+These are learning exercises. Each source folder is compiled separately because some exercises reuse class names.
+
+| Source folder | Java files | Programs with a `main` method |
+| --- | ---: | --- |
+| [src](src) | 1 | [GoogleSearch](src/GoogleSearch.java) |
+
+## Compile and run
+
+Install a JDK with `javac` and `java` available. The source folders below were compiled successfully with **JDK 24.0.2**. Run commands from the repository root.
+
+### src
+
+```bash
+mkdir -p build/src
+javac -d build/src src/*.java
+java -cp build/src GoogleSearch
+```
+
+Choose another entry point from the table to run a different exercise. Some programs prompt for console input; others demonstrate object construction without printing output.
+
+## Scope
+
+These repositories document programming practice and coursework. Successful compilation is a basic check; it does not mean every exercise has complete input validation or production-level behavior.
